@@ -1,0 +1,8 @@
+{
+  "commands": {
+    "whisper": "python tools/localizer_project_adapter.py --manifest {manifest} --localizer-root C:\\path\\to\\AI-Video-Localizer --stage transcription --language zh --model-size large-v3-turbo",
+    "vietsub_tts": "python tools/localizer_project_adapter.py --manifest {manifest} --localizer-root C:\\path\\to\\AI-Video-Localizer --stage translation_tts --voice-id podcast1",
+    "localizer": null,
+    "render": "python tools/localizer_project_adapter.py --manifest {manifest} --localizer-root C:\\path\\to\\AI-Video-Localizer --stage finalize"
+  }
+}

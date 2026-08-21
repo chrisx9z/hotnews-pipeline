@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# Local crawler and pipeline runtime data
+data/
+jobs/
+jobs-real/
+*.jsonl
+!examples/*.jsonl
+hot-catalog.html
+selected-candidates.jsonl
+
+# Localizer outputs
+work/
+output/
+logs/
